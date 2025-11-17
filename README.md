@@ -13,18 +13,34 @@ demand_next_month
 - Train/Val: 19 meses
 - Backtest: 201805–201807
 - Prueba final docente: 201808
-- 
+  
 ## Estructura
-ml-forecast-olist/
+m13-ml-forecast-olist/
+│
 ├── notebooks/
+│   ├── Sprint1/
+│   ├── Sprint2/
+│   └── Sprint3/
+│
 ├── src/
+│   ├── ingesta/
+│   ├── cleaning/
+│   ├── features/
+│   ├── models/
+│   └── utils/
+│
 ├── reports/
+│   ├── sprint1.md
+│   ├── sprint2.md
+│   └── sprint3.md
+│
 ├── README.md
 ├── requirements.txt
 └── .gitignore
 
+
 ## Tecnologías
-Python, Pandas, NumPy, Sklearn, XGBoost, CatBoost, Colab, Git, GitHub.
+Python, Pandas, NumPy, Sklearn, XGBoost, CatBoost, Colab, Git, GitHub, Matplotlib, Seaborn, Google Colab, gitFlow 
 
 ## Flujo GitFlow
 Ramas:
